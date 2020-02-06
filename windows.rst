@@ -11,7 +11,9 @@
 ``sys_log={"severity":"warning","notification":{"mail":{"send_recovery":false,"users":["SungurovDV"]}}}``
 
 Для повышения наглядности, строку выше можно разбить на несколько строк.
+
 .. code-block:: python
+
 sys_log={
   "severity":"warning",
   "check_interval":"120",
@@ -23,6 +25,7 @@ sys_log={
     }
   }
 }
+
 
 
 Проверка журнала application
