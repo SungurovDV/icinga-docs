@@ -15,6 +15,7 @@ Icinga в ОЗ ОДУ Сибири
    preface
    initial
    esm
+   windows
 
 
 
