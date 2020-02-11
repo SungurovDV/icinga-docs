@@ -14,6 +14,7 @@ Icinga в ОЗ ОДУ Сибири
    
    preface
    initial
+   icinga-setup
    esm
    windows
 
