@@ -61,6 +61,12 @@
 Создание User Backend
 ^^^^^^^^^^^^^^^^^^^^^
 
+В меню откройте раздел ``Настройки->Application`` и выберите вкладку ``Authentication``. После нажатия на ссылку ``Create a New User Backend`` откроется форма для заполнения данных.
+
+.. figure:: _static/icinga-create-user-backend.png
+   :scale: 50 %
+   :align: center
+
 
 Создание Group Backend
 ^^^^^^^^^^^^^^^^^^^^^^
