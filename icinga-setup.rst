@@ -76,7 +76,7 @@
    :scale: 50 %
    :align: center
 
-Заполните форму. В поле ``Backend Type`` укажите тип **ActiveDirectory**, ``Backend Name`` для однотипности с другими филиалами сделайте **backend_AD_SB_RDU_users** ( **RDU** замените сокращенным названием своего филиала ). В поле ``LDAP Connection`` автоматически пропишется ресурс типа LDAP (созданный ранее в пункте :ref:`icinga-create-resource`), а в поле ``LDAP User Object Class`` значение **user**. В поле ``LDAP Filter`` прописываем  **memberOf=DN-группы** (вместо **DN-группы** Вам необходимо указать атрибут distinguishedName группы, созданной ранее в пункте :ref:`icinga-web-user-authorization` ). Значание в поле ``LDAP User Name Attribute`` по умолчанию равно **sAMAccountName**, оставьте его без изменений. Поле ``LDAP Base DN`` оставьте пустым. В поле `Domain` пропишите  имя нашего домена **ODUSB.SO**.
+Заполните форму. В поле ``Backend Type`` укажите тип **ActiveDirectory**, ``Backend Name`` для однотипности с другими филиалами сделайте **backend_AD_SB_RDU_users** ( **RDU** замените сокращенным названием своего филиала ). В поле ``LDAP Connection`` автоматически пропишется ресурс типа LDAP (созданный ранее в пункте :ref:`icinga-create-resource`), а в поле ``LDAP User Object Class`` значение **user**. В поле ``LDAP Filter`` прописываем  **memberOf=DN-группы** (вместо **DN-группы** Вам необходимо указать атрибут distinguishedName группы, созданной ранее в пункте :ref:`icinga-web-user-authorization` ). Значание в поле ``LDAP User Name Attribute`` по умолчанию равно **sAMAccountName**, оставьте его без изменений. Поле ``LDAP Base DN`` оставьте пустым. В поле ``Domain`` пропишите  имя нашего домена **ODUSB.SO**.
 
 
 Создание Group Backend
@@ -88,7 +88,7 @@
    :scale: 50 %
    :align: center
 
-Заполните форму. В поле ``Backend Type`` укажите тип тип **ActiveDirectory**, ``Backend Name`` для однотипности с другими филиалами сделайте **backend_AD_SB_RDU_groups** ( **RDU** замените сокращенным названием своего филиала ).  В поле ``LDAP Connection`` автоматически пропишется ресурс типа LDAP (созданный ранее в пункте :ref:`icinga-create-resource`), а в поле ``User Backend`` пропишется пользовательский backend, созданный в предыдущем пункте :ref:`icinga-create-user-backend`. 
+Заполните форму. В поле ``Backend Type`` укажите тип тип **ActiveDirectory**, ``Backend Name`` для однотипности с другими филиалами сделайте **backend_AD_SB_RDU_groups** ( **RDU** замените сокращенным названием своего филиала ).  В поле ``LDAP Connection`` автоматически пропишется ресурс типа LDAP (созданный ранее в пункте :ref:`icinga-create-resource`), а в поле ``User Backend`` пропишется пользовательский backend, созданный в предыдущем пункте :ref:`icinga-create-user-backend`. В поле ``LDAP Group Object Class`` оставьте значение по умолчанию **group**, поле ``LDAP Group Filter`` оставьте пустым. В поле ``LDAP Group Name Attribute`` оставьте значение по умолчанию **sAMAccountName**, а в поле ``LDAP Group Member Attribute`` **member**. 
 
 Прочие настройки
 ----------------
