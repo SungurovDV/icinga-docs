@@ -66,24 +66,17 @@
 Создание User Backend
 ^^^^^^^^^^^^^^^^^^^^^
 
-
-
 В меню откройте раздел ``Настройки->Application`` и выберите вкладку ``Authentication``. После нажатия на ссылку ``Create a New User Backend`` откроется форма для заполнения данных.
 
 .. figure:: _static/icinga-create-user-backend.png
    :scale: 50 %
    :align: center
 
-Заполните форму. ``Backend Type`` укажите **ActiveDirectory**, ``Backend Name`` для однотипности с другими филиалами сделайте **backend_AD_SB_RDU_users** ( **RDU** замените сокращенным названием своего филиала ). В поле ``LDAP Connection`` автоматически пропишется ресурс типа LDAP (созданный ранее), а в поле ``LDAP User Object Class`` значение **user**. 
-
-В поле ``LDAP Filter`` прописываем  **memberOf=DN-группы** (вместо **DN-группы** Вам необходимо указать атрибут distinguishedName группы, созданной ранее в пункте :ref:`icinga-web-user-authorization` )
-
-
+Заполните форму. ``Backend Type`` укажите **ActiveDirectory**, ``Backend Name`` для однотипности с другими филиалами сделайте **backend_AD_SB_RDU_users** ( **RDU** замените сокращенным названием своего филиала ). В поле ``LDAP Connection`` автоматически пропишется ресурс типа LDAP (созданный ранее), а в поле ``LDAP User Object Class`` значение **user**. В поле ``LDAP Filter`` прописываем  **memberOf=DN-группы** (вместо **DN-группы** Вам необходимо указать атрибут distinguishedName группы, созданной ранее в пункте :ref:`icinga-web-user-authorization` ). Значание в поле `LDAP User Name Attribute` по умолчанию равно **sAMAccountName**, оставьте его без изменений. Поле `LDAP Base DN` оставьте пустым. В поле `Domain` пропишите  имя нашего домена **ODUSB.SO**.
 
 
 Создание Group Backend
 ^^^^^^^^^^^^^^^^^^^^^^
-
 
 
 Прочие настройки
