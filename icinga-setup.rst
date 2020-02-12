@@ -11,6 +11,7 @@
 Учётные записи для Icinga
 -------------------------
 
+
 .. _icinga-web-user-authorization:
 
 Авторизация пользователей в Icinga Web
@@ -75,7 +76,7 @@
 
 Заполните форму. ``Backend Type`` укажите **ActiveDirectory**, ``Backend Name`` для однотипности с другими филиалами сделайте **backend_AD_SB_RDU_users** ( **RDU** замените сокращенным названием своего филиала ). В поле ``LDAP Connection`` автоматически пропишется ресурс типа LDAP (созданный ранее), а в поле ``LDAP User Object Class`` значение **user**. 
 
-В поле ``LDAP Filter`` прописываем  **memberOf=DN-группы** (вместо **DN-группы** Вам необходимо указать атрибут distinguishedName группы, созданной ранее в пункте :ref:`_icinga-web-user-authorization` )
+В поле ``LDAP Filter`` прописываем  **memberOf=DN-группы** (вместо **DN-группы** Вам необходимо указать атрибут distinguishedName группы, созданной ранее в пункте :ref:`icinga-web-user-authorization` )
 
 
 
