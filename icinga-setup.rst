@@ -89,6 +89,9 @@
 
 Заполните форму. В поле ``Backend Type`` укажите тип тип **ActiveDirectory**, ``Backend Name`` для однотипности с другими филиалами сделайте **backend_AD_SB_RDU_groups** ( **RDU** замените сокращенным названием своего филиала ).  В поле ``LDAP Connection`` автоматически пропишется ресурс типа LDAP (созданный ранее в пункте :ref:`icinga-create-resource`), а в поле ``User Backend`` пропишется пользовательский backend, созданный в предыдущем пункте :ref:`icinga-create-user-backend`. В поле ``LDAP Group Object Class`` оставьте значение по умолчанию **group**, поле ``LDAP Group Filter`` оставьте пустым. В поле ``LDAP Group Name Attribute`` оставьте значение по умолчанию **sAMAccountName**, а в поле ``LDAP Group Member Attribute`` **member**. 
 
+Последнее поле ``LDAP Group Base DN`` содержит адрес контейнера в AD, в котором Icinga будет искать группы. Создайте в AD контейнер для групп Icinga (через них Вы можете выдавать права пользователям). Внесите в поле ``LDAP Group Base DN`` атрибут **distinguished name**, созданного контейнера.
+
+
 Прочие настройки
 ----------------
 
