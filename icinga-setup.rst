@@ -102,6 +102,21 @@
    :scale: 50 %
    :align: center
 
+Для однотипности с другими филиалами роль пользователей назовите **ROLE_SB-RDU_USER** ( **RDU** замените сокращенным названием своего филиала ). В полях ``Users`` и ``Groups`` укажите пользователей и группы, которым Вы хотите предоставить доступ. Доступ к модулям настройте согласно скриншотам, приведённм ниже.
+
+.. figure:: _static/icinga-user-role-part1.png
+   :scale: 50 %
+   :align: center
+
+.. figure:: _static/icinga-user-role-part2.png
+   :scale: 50 %
+   :align: center
+
+.. figure:: _static/icinga-user-role-part3.png
+   :scale: 50 %
+   :align: center
+
+
 
 
 Прочие настройки
