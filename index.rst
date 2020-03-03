@@ -17,6 +17,7 @@ Icinga в ОЗ ОДУ Сибири
    icinga-setup
    esm
    windows
+   vmware
 
 
 
