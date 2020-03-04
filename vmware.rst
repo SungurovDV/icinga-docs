@@ -14,30 +14,23 @@ ESXi
 vCenter, базовые проверки
 -------------------------
 
-ESXi host list
-^^^^^^^^^^^^^^
+* ESXi host list
 
 Список ESXi серверов под управлением vCenter сервера.
 
-Cluster list
-^^^^^^^^^^^^
+* Cluster list
 
 Список кластеров под управлением vCenter сервера.
 
-
-Snapshot list
-^^^^^^^^^^^^^
+* Snapshot list
 
 Список снапшотов. При наличии с временем хранения более суток, возникает аварийное сообщение.
 
-Issue list
-^^^^^^^^^^
+* Issue list
 
 Список обнаруженных проблем.
 
-
-Vmware tools status
-^^^^^^^^^^^^^^^^^^^
+* Vmware tools status
 
 Состояние vmware tools на виртуальных машинах.
 
