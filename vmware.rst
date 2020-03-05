@@ -19,8 +19,7 @@ vCenter, базовые проверки
 Список ESXi серверов под управлением vCenter сервера.
 
 .. figure:: _static/esxi-host-list.png
-   :scale: 50 %
-   :align: center
+   :align: left
 
 
 * Cluster list
@@ -28,32 +27,28 @@ vCenter, базовые проверки
 Список кластеров под управлением vCenter сервера.
 
 .. figure:: _static/cluster-list.png
-   :scale: 50 %
-   :align: center
+   :align: left
 
 * Snapshot list
 
 Список снапшотов. При наличии с временем хранения более суток, возникает аварийное сообщение.
 
 .. figure:: _static/snapshot-list.png
-   :scale: 50 %
-   :align: center
+   :align: left
 
 * Issue list
 
 Список обнаруженных проблем.
 
 .. figure:: _static/issue-list.png
-   :scale: 50 %
-   :align: center
+   :align: left
 
 * Vmware tools status
 
 Состояние vmware tools на виртуальных машинах.
 
 .. figure:: _static/vmware-tools-status.png
-   :scale: 50 %
-   :align: center
+   :align: left
 
 
 vCenter, дополнительные проверки
