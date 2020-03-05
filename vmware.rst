@@ -80,3 +80,11 @@ Volume (Проверка свободного места на томах vmware)
 Сервис Volume, созданный тэгом для тома SB-DMZ1-HDD
 
 .. image:: _static/volume-service.png
+
+
+Cluster DRS mode
+""""""""""""""""
+
+Включается тэгом vc_cluster. Служит для проверки режима работы DRS. В штатном режиме должен использоваться режим Fully Automated, но при проведении технических работ режим меняется на Partially Automated (скриншот ниже показан такой случай). 
+
+.. image:: _static/cluster-drs-mode.png
