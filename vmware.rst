@@ -20,6 +20,7 @@ vCenter, базовые проверки
 
 .. image:: _static/esxi-host-list.png
 
+---------
 
 * Cluster list
 
@@ -27,6 +28,7 @@ vCenter, базовые проверки
 
 .. image:: _static/cluster-list.png
 
+---------
 
 * Snapshot list
 
@@ -34,6 +36,7 @@ vCenter, базовые проверки
 
 .. image:: _static/snapshot-list.png
 
+_________
 
 * Issue list
 
