@@ -26,30 +26,27 @@ vCenter, базовые проверки
 Список кластеров под управлением vCenter сервера.
 
 .. image:: _static/cluster-list.png
-   :align: left
 
 
 * Snapshot list
 
 Список снапшотов. При наличии с временем хранения более суток, возникает аварийное сообщение.
 
-.. figure:: _static/snapshot-list.png
-   :align: left
+.. image:: _static/snapshot-list.png
 
 
 * Issue list
 
 Список обнаруженных проблем.
 
-.. figure:: _static/issue-list.png
-   :align: left
+.. image:: _static/issue-list.png
+
 
 * Vmware tools status
 
 Состояние vmware tools на виртуальных машинах.
 
-.. figure:: _static/vmware-tools-status.png
-   :align: left
+.. image:: _static/vmware-tools-status.png
 
 
 vCenter, дополнительные проверки
