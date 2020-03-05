@@ -18,16 +18,16 @@ vCenter, базовые проверки
 
 Список ESXi серверов под управлением vCenter сервера.
 
-.. figure:: _static/esxi-host-list.png
-   :align: left
+.. image:: _static/esxi-host-list.png
 
 
 * Cluster list
 
 Список кластеров под управлением vCenter сервера.
 
-.. figure:: _static/cluster-list.png
+.. image:: _static/cluster-list.png
    :align: left
+
 
 * Snapshot list
 
@@ -35,6 +35,7 @@ vCenter, базовые проверки
 
 .. figure:: _static/snapshot-list.png
    :align: left
+
 
 * Issue list
 
